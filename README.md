@@ -20,7 +20,7 @@ python game_logic.py
 </p>
 
 ## Screenshots
-<p align="center">
+<p>
 <img src="/images/Screenshot-1.png" height=550>
 </p>
 
