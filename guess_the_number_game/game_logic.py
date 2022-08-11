@@ -11,6 +11,7 @@ def print_welcome_message():
     print("If your guess is within 10 of my number, I'll tell you that you are WARM.")
     print("If your guess is farther than your most recent guess, I'll say you're getting COLDER.")
     print("If your guess is closer than your most recent guess, I'll say you're getting WARMER.")
+    print("Erroneous guesses are not counted.")
     print("LET'S PLAY!\n")
 
 
