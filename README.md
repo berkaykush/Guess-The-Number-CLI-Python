@@ -21,7 +21,7 @@ python game_logic.py
 
 ## Screenshots
 <p>
-<img src="/images/Screenshot-1.png" height=550>
+<img src="/images/Screenshot-1.png" height=630 width= 630>
 </p>
 
 ## Author
