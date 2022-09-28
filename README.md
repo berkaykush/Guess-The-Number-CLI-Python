@@ -13,15 +13,15 @@ git clone https://github.com/bk0511/Guess-The-Number-CLI-Python.git
 cd Guess-The-Number-CLI-Python/guess_the_number_game
 python game_logic.py
 ```
-
 <p align="center">
-<video src="https://user-images.githubusercontent.com/70837975/184151533-c06f20b2-7ca5-43ae-a3e1-ba524c44c8aa.mov" controls="controls" style="max-width: 200px;">
+<video src="https://user-images.githubusercontent.com/70837975/192792049-611c9da8-2767-4da1-a93a-7063d7a537a3.mov" controls="controls" style="max-width: 730px;">
 </video>
 </p>
 
 ## Screenshots
 <p>
-<img src="/images/Screenshot-1.png" height=630 width= 630>
+<img src="/resources/screenshot_1.png" width=700>
+<img src="/resources/screenshot_2.png" width=700>
 </p>
 
 ## Author
