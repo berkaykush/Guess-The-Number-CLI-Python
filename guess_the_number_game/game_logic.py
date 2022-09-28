@@ -1,8 +1,9 @@
-from random import randrange
+import os
+import random
 
 from out_of_bounds_error import OutOfBoundsError
 
-PICKED_NUMBER = randrange(1, 101)
+PICKED_NUMBER = random.randrange(1, 101)
 
 
 def print_welcome_message():
@@ -79,17 +80,26 @@ def check_continue_respone():
         print(f'Sorry \'{user_input}\' is not a valid command.\n')
 
 
+def clear_terminal():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
 def main():
     running = True
 
     while running:
         print_welcome_message()
         print(f'\nCONGRATULATIONS, YOU GUESSED IT IN ONLY '
-              f'{guessing()} GUESSES!!')
+              f'{guessing()} GUESSES!!!')
 
-        if check_continue_respone() is False:
+        if check_continue_respone() == 'N':
             running = False
+            continue
+
+        clear_terminal()
 
 
 if __name__ == '__main__':
+    clear_terminal()
     main()
+    print('\nGOODBYE')
