@@ -1,4 +1,5 @@
 from random import randrange
+
 from out_of_bounds_error import OutOfBoundsError
 
 PICKED_NUMBER = randrange(1, 101)
@@ -68,10 +69,26 @@ def guessing(num_guesses=0, prev_guess=None):
         prev_guess = entered_guess
 
 
+def check_continue_respone():
+    while True:
+        user_input = input('\nDo you want to continue playing? (Y/N): ')
+
+        if user_input.upper() in ['Y', 'N']:
+            return user_input.upper()
+
+        print(f'Sorry \'{user_input}\' is not a valid command.\n')
+
+
 def main():
-    print_welcome_message()
-    print(f'\nCONGRATULATIONS, YOU GUESSED IT IN ONLY '
-          f'{guessing()} GUESSES!!')
+    running = True
+
+    while running:
+        print_welcome_message()
+        print(f'\nCONGRATULATIONS, YOU GUESSED IT IN ONLY '
+              f'{guessing()} GUESSES!!')
+
+        if check_continue_respone() is False:
+            running = False
 
 
 if __name__ == '__main__':
