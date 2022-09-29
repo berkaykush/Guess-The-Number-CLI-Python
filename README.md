@@ -20,8 +20,8 @@ python game_logic.py
 
 ## Screenshots
 <p>
-<img src="/resources/screenshot_1.png" width=700>
-<img src="/resources/screenshot_2.png" width=700>
+<img src="/resources/screenshot_1.png">
+<img src="/resources/screenshot_2.png">
 </p>
 
 ## Author
