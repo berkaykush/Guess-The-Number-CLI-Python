@@ -10,18 +10,18 @@ The command line interface Guess-The-Number game in Python.
 
 ```
 git clone https://github.com/bk0511/Guess-The-Number-CLI-Python.git
-cd Guess-The-Number-CLI-Python/guess_the_number_game
-python game_logic.py
+cd Guess-The-Number-CLI-Python/code
+python main.py
 ```
 <p align="center">
-<video src="https://user-images.githubusercontent.com/70837975/192792049-611c9da8-2767-4da1-a93a-7063d7a537a3.mov" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/70837975/207434946-73d8dea3-9ae8-4901-81aa-94b78474aa26.mov" controls="controls" style="max-width: 730px;">
 </video>
 </p>
 
 ## Screenshots
 <p>
-<img src="/resources/screenshot_1.png">
 <img src="/resources/screenshot_2.png">
+<img src="/resources/screenshot_1.png">
 </p>
 
 ## Author
