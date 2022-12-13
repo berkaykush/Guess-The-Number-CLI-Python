@@ -59,7 +59,6 @@ def guessing(num_guesses=0, prev_guess=None):
     global selected_num
 
     selected_num = random.randint(1, 100)
-    print(selected_num)
 
     while True:
         entered_guess = check_entered_guess()
