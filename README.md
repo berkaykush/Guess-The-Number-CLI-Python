@@ -9,7 +9,7 @@ The command line interface Guess-The-Number game in Python.
 ## Running Guess-The-Number:
 
 ```
-git clone https://github.com/bk0511/Guess-The-Number-CLI-Python.git
+git clone https://github.com/berkaykush/Guess-The-Number-CLI-Python.git
 cd Guess-The-Number-CLI-Python/code
 python main.py
 ```
