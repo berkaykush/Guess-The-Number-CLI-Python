@@ -13,10 +13,7 @@ git clone https://github.com/berkaykush/Guess-The-Number-CLI-Python.git
 cd Guess-The-Number-CLI-Python/code
 python main.py
 ```
-<p align="center">
-<video src="https://user-images.githubusercontent.com/70837975/207434946-73d8dea3-9ae8-4901-81aa-94b78474aa26.mov" controls="controls" style="max-width: 730px;">
-</video>
-</p>
+https://user-images.githubusercontent.com/70837975/207434946-73d8dea3-9ae8-4901-81aa-94b78474aa26.mov
 
 ## Screenshots
 <p>
