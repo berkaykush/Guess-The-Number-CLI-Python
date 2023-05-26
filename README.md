@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/Python_Version-3.10.5-brown.svg)
 ![](https://img.shields.io/badge/Status-Complete-green.svg)
 
-The command line interface Guess-The-Number game in Python.
+CLI Guess-The-Number game in Python.
 
 ## Running Guess-The-Number:
 
