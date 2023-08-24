@@ -1,26 +1,19 @@
-from game_logic import (
-    guessing,
-    check_continue_respone,
-    clear_terminal,
-    print_welcome_message,
-)
+from game_logic import GameLogic
 
 
 def main():
-    running = True
+    game = GameLogic()
 
-    while running:
-        print_welcome_message()
-        print(f"\nCONGRATULATIONS, YOU GUESSED IT IN ONLY " f"{guessing()} GUESSES!!!")
+    while True:
+        game.run()
 
-        if check_continue_respone() == "N":
-            running = False
-            continue
+        if game.check_continue() == "N":
+            break
 
-        clear_terminal()
+        game.reset()
+
+    game.print_goodbye_message()
 
 
 if __name__ == "__main__":
-    clear_terminal()
     main()
-    print("\nGOODBYE")
